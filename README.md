@@ -1,16 +1,20 @@
-# matrix_mobile
+# AppStore
 
-A new Flutter project.
+A new Flutter app, 
 
-## Getting Started
+## Home Tab
 
-This project is a starting point for a Flutter application.
+Present 2 lists 
 
-A few resources to get you started if this is your first Flutter project:
+1. A horizontal list containing the top free apps 
+2. A vertical list containing the top paid list
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+Each app cell/widget should contain a heart button to add the app to favorite.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Favorite apps store on the device. 
+option to see our selection even if the app is restart.
+
+## Favorite Tab
+
+Present a grid with favorite app.
+The list is updated when the favorite list changes.
